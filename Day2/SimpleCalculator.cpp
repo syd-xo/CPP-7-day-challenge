@@ -53,7 +53,7 @@ int main(){
         }
 
         char choice;
-        cout << "Do you want to perform another calculation? (y/n): \n";
+        cout << "\nDo you want to perform another calculation? (y/n): ";
         cin >> choice;
         if (choice == 'n' || choice == 'N') {
             running = false;
