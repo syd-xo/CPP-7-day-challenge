@@ -2,6 +2,7 @@
 #include <vector>
 #include <fstream>
 #include <iomanip>
+#include <limits>
 
 using namespace std;
 
@@ -26,10 +27,15 @@ int main() {
 
         if (choice == 1) {
             Student s;
+            cin.ignore(); // clear the leftover newline from menu input
             cout << "Enter student name: ";
-            cin >> s.name;
+            getline(cin, s.name);
+            
             cout << "Enter grade (0-100): ";
             cin >> s.grade;
+
+            // Clear the buffer after reading the grade
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
             if (s.grade < 0 || s.grade > 100) {
                 cout << "Invalid grade. Try again." << endl;
@@ -83,6 +89,7 @@ int main() {
 
         else if (choice == 5) {
             cout << "Exiting program." << endl;
+            break; // Explicitly break out of the loop
         }
 
         else {
