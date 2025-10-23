@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vetor>
+#include <vector>
 #include <fstream>
 #include <iomanip>
 
@@ -37,7 +37,7 @@ int main() {
             }
 
             students.push_back(s);
-            cout << "Student added successfully!" << endl;
+            cout << "Student added successfully." << endl;
         }
 
         else if (choice == 2) {
@@ -62,7 +62,7 @@ int main() {
                 outFile << s.name << " " << s.grade << endl;
             }
             outFile.close();
-            cout << "Data saved to students.txt!" << endl;
+            cout << "Data saved to students.txt." << endl;
         }
 
         else if (choice == 4) {
@@ -78,11 +78,11 @@ int main() {
                 students.push_back(s);
             }
             inFile.close();
-            count << "Data loaded from file!" << endl;
+            cout << "Data loaded from file." << endl;
         }
 
         else if (choice == 5) {
-            count << "Exiting program..." << end;
+            cout << "Exiting program." << endl;
         }
 
         else {
