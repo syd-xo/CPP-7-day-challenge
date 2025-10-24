@@ -1,2 +1,3 @@
 # CPP-7-day-challenge
-A repo containing C++ leaning challenges over a 7-day period
+This repo contains my C++ journey, day by day, learning and building one line of code at a time. 
+A repo containing C++ leaning challenges over 7 days. 
