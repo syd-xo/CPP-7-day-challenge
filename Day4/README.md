@@ -91,5 +91,5 @@ Make sure the compile and run commands use the same file name:
 
 ---
 
-**Compilation verified:** 
+## Compilation verified:
 Working with g++ from MSYS2 UCRT64 environment.
