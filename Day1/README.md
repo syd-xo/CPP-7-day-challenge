@@ -1,10 +1,15 @@
 ### Day 1: Motivational Quote Generator
 
-**Goal:** To write a prgram that displays a random motivational quote each time it runs. The purpose of this project was to refresh my understanding of basic C++ syntax, practice using vectors, and learn how to generate random numbers for dynamic program output.
+**Goal:** To write a program that displays a random motivational quote each time it runs. The purpose of this project was to refresh my understanding of basic C++ syntax, practice using vectors, and learn how to generate random numbers for dynamic program output.
 
 ---
 
-### What I practiced in Day1
+### How to run
+// to be included here
+
+---
+
+### What I practised on Day 1
 1. **Program structure**
     - the `main()` function
     - the `#include` directives for libraries 
